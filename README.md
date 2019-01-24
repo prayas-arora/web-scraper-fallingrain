@@ -1,5 +1,5 @@
 # Web-Scraper-Fallingrain.com
-Web Scraper to prepare a CSV file containing State, City, Latitude, Longitude, Elevation, Estimated Population
+Web Scraper to prepare a CSV file containing State, City, Latitude, Longitude, Elevation, Estimated Population.
 Website url ='http://www.fallingrain.com/world/IN/'
 
 This is a web scraper that implements Depth First Search using a stack to collect the required information.
