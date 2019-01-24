@@ -1,4 +1,4 @@
-# Web-Scraper-Fallingrain.com
+# Web-Scraper-fallingrain
 Web Scraper to prepare a CSV file containing State, City, Latitude, Longitude, Elevation, Estimated Population.
 Website url='http://www.fallingrain.com/world/IN/'
 
