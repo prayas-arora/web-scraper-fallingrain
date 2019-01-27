@@ -5,10 +5,12 @@ Website_url='http://www.fallingrain.com/world/IN/'
 This is a web scraper that implements Depth First traversal using a stack to collect the required information.
 
 Libraries used:
-os.path, pandas, requests, bs4 from BeautifulSoup4
+os.path, pandas, requests, bs4 from BeautifulSoup4, time.
 
 First, urls for all the states are collected in a list.
 These urls are scraped iteratively using a Depth First Traversal implemented using a stack which stores sub-links present inside each state url.
-After reaching the base of each url, beautifulsoup4 is used to extract the required table.
-Note: Final table in each hierarchy is recognised to either have attribute border=2 or is the second table on the page having a map.
+After reaching the base of each url, beautifulsoup4 is used to extract the final table.
+Note: 
+(a) Final table in each hierarchy is recognised to either have attribute border=2 or is the second table on the page having a map.
 Collected data is manipulated as required and appended to a csv file.
+(b) Please open the csv file using link: https://raw.githubusercontent.com/Prayas1997/web-scraper-fallingrain/master/India.csv in your browser(preferrably Google Chrome) or download it and open with Libre office. This is because India.csv contains names written in regional languages and Microsoft Excel messes those names with different encodings.
