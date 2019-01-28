@@ -14,3 +14,7 @@ Note:
 (a) Final table in each hierarchy is recognised to either have attribute border=2 or is the second table on the page having a map.
 Collected data is manipulated as required and appended to a csv file.
 (b) Please open the csv file using link: https://raw.githubusercontent.com/Prayas1997/web-scraper-fallingrain/master/India.csv in your browser(preferrably Google Chrome) or download it and open with Libre office. This is because India.csv contains names written in regional languages and Microsoft Excel messes those names with different encodings.
+
+
+********* IMPORTANT!!! **********
+I've added 0.1 sec delay into the code before any new page is fetched from server. This is done so that the server does not block the script by closing connection suspecting an attack. The script does not get stuck in an infinite loop at any point of time. It takes time to process states with large no. of places. For example, Andhra Pradesh has around 30,200 places. Total running time for the script is 2+hrs on an intel i5 4th gen laptop processor and 4GB RAM. 
