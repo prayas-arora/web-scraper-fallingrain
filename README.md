@@ -19,4 +19,4 @@ Collected data is manipulated as required and appended to a csv file.
 ********* IMPORTANT!!! **********
 1). I've added 0.1 sec delay into the code before any new page is fetched from server. This is done so that the server does not block the script by closing connection suspecting an attack. The script does not get stuck in an infinite loop at any point of time. It takes time to process states with large no. of places. For example, Andhra Pradesh has around 30,200 places. Total running time for the script is 2+hrs on an intel i5 4th gen laptop processor and 4GB RAM. 
 
-2). Inorder t0 provide for easy analysis of data, rows having any field as NAN are removed.
+2). Inorder to provide for easy analysis of data, rows having any field as NAN are removed.
